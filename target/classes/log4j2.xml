@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%p] %c [%t] (%F:%L) %m%n" />
+        </Console>
+
+        <File name="FileAppender" fileName="logs/idmerge.log4j2" append="false">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%p] %c [%t] (%F:%L) %m%n" />
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!--
+        <Logger name="FileLogger" level="debug" additivity="false">
+            <AppenderRef ref="FileAppender" />
+        </Logger>
+        -->
+        <Root level="info">
+            <!--
+            <AppenderRef ref="Console" />
+            -->
+            <AppenderRef ref="FileAppender" />
+        </Root>
+    </Loggers>
+</Configuration>

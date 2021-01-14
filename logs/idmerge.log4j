@@ -1,0 +1,4 @@
+2019-01-10 10:11:25 [ERROR] com.mininglamp.nlp.textpreprocess.fileparse.EMLParser [main] (EMLParser.java:39) /Users/littlebei/Downloads/textpreprocess/eml_files/景逸飞-明略数据2018绩效评估表.xlsx.eml (No such file or directory)
+2019-01-10 14:06:31 [ERROR] com.mininglamp.nlp.textpreprocess.fileparse.EMLParser [main] (EMLParser.java:133) 此类文件无法解析！
+2019-01-10 14:06:31 [ERROR] com.mininglamp.nlp.textpreprocess.fileparse.EMLParser [main] (EMLParser.java:133) 此类文件无法解析！
+2019-01-10 14:06:31 [ERROR] com.mininglamp.nlp.textpreprocess.fileparse.EMLParser [main] (EMLParser.java:133) 此类文件无法解析！
